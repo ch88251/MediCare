@@ -20,7 +20,7 @@ public class DepartmentService {
   /**
    * Finds a department with a given slug name
    *
-   * @param name a slug name
+   * @param slug a slug name
    * @return Department if the department with the given slug exists
    */
   public Department findBySlug(String slug) {
